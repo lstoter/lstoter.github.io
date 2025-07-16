@@ -1,0 +1,47 @@
+/* Apply Georgia font */
+body {
+  font-family: Georgia, serif;
+  background-color: #fdfdfd;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.headshot {
+  float: right;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 75px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #005577;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 20px;
+}
