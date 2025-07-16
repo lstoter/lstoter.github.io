@@ -45,3 +45,16 @@ a:hover {
 ul {
   padding-left: 20px;
 }
+
+/* Change hover background color for accordion button */
+.accordion-button:hover {
+  background-color: #f0f0f0; /* Light gray */
+  color: #333; /* Optional: text color */
+}
+
+/* Optional: also change active (expanded) state color */
+.accordion-button:not(.collapsed) {
+  background-color: #e0e0e0; /* When open */
+  color: #000;
+}
+
