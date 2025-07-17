@@ -46,16 +46,7 @@ ul {
   padding-left: 20px;
 }
 
-/* Change accordion header background and text color */
-.accordion-button {
-  background-color: #6D4C41; 
-  color: white;
-}
-
-/* Optional: Change color when active */
-.accordion-button:not(.collapsed) {
-  background-color: #B4978E; 
-  color: white;
-}
+--#{$prefix}accordion-color: #6D4C41;
+--#{$prefix}accordion-bg: #B4978E
 
 
