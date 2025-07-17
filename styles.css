@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: none;
+}
+
 .container {
   max-width: 800px;
   margin: auto;
@@ -46,7 +50,5 @@ ul {
   padding-left: 20px;
 }
 
---#{$prefix}accordion-color: #6D4C41;
---#{$prefix}accordion-bg: #B4978E
 
 
